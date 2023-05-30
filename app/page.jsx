@@ -31,13 +31,13 @@ export default function Home() {
         <p>I don`t know what to write here)))</p>
       </div>
       <div className={styles.avatar}>
-       <Image width="250" height="250" src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=712&q=80" />
+       <Image width="250" height="250" src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=712&q=80" alt="Avatar image" />
       </div>
       <section className={styles.main}>
         <div className={styles.about_me}>
           <h2 id="about">ABOUT</h2>
           <div className={styles.text_about_me}>
-            <p>I'm an 18-year-old student at a very cool DUICT university who likes front-end and web development. This is my first portfolio, so I don't know what to write here)))</p>
+            <p>I&apos;m an 18-year-old student at a very cool DUICT university who likes front-end and web development. This is my first portfolio, so I don&apos;t know what to write here)))</p>
           </div>
         </div>
         <div className={styles.projects}>
