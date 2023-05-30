@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import styles from './page.module.css'
+import styles from './page.module.scss'
 
 export default function Home() {
   return (
@@ -30,7 +30,9 @@ export default function Home() {
         <h2>Front-end developer</h2>
         <p>I don`t know what to write here)))</p>
       </div>
-      <div className={styles.avatar}><img src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=712&q=80"></img></div>
+      <div className={styles.avatar}>
+       <Image width="250" height="250" src="https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=712&q=80" />
+      </div>
       <section className={styles.main}>
         <div className={styles.about_me}>
           <h2 id="about">ABOUT</h2>

@@ -30,6 +30,10 @@
   font-weight: 100;
   font-size: 5rem;
   letter-spacing: 0.1em;
+
+  @media (max-width: 520px) {
+    font-size: 2.2rem;
+  }
 }
 
 .name_avatar h2 {
@@ -75,15 +79,18 @@
   border-bottom: 5px solid #525e65;
   display: inline-block;
 }
-.projects p{
+
+.projects p {
   opacity: 40%;
   margin-top: 40px;
 }
-.photo_projects{
+
+.photo_projects {
   font-size: 28px;
   gap: 50px;
   margin-top: 40px;
 }
+
 .contacts h2 {
   width: 200px;
   height: 50px;
@@ -92,21 +99,26 @@
   margin-top: 300px;
 
 }
-.avatar img{
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  margin-top: 40px;
-  display: flex;
-  margin-left: 43.5%;
 
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    border-radius: 100%;
+    margin-top: 40px;
+  }
 }
-.network{
+
+.network {
   display: inline-block;
   gap: 70px;
   margin-top: 40px;
 
 }
-.network p{
+
+.network p {
   margin-top: 10px;
 }
